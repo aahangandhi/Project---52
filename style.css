@@ -1,0 +1,86 @@
+.header
+{
+    background-color:rgb(1,4,9);
+    display:flex;
+    justify-content: space-between;
+}
+
+.menu
+{
+    display:flex;
+    justify-content: space-between;
+    background-color:#000000;
+    padding: 15px;
+    font-size:20px;
+    font-family:sans-serif;
+    font-weight:400;
+    font-weight: bold;
+    color:orangered;
+}
+
+h1
+{
+    color:red;
+    font-family: sans-serif;
+}
+
+
+a
+{
+    color:white;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.bodyimg
+{
+    color:blue;
+    font-family:serif;
+    font-display:swap;
+}
+
+.textInImage
+{
+    position:absolute;
+    top:25%;
+}
+
+body{
+    margin: 0px;
+    background-color:#f7f2f2;
+}
+
+.grid
+{    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.grid img{
+    border:2px solid #000000;
+    border-radius:50px
+}
+
+.origami
+{ 
+
+    border-radius:20px;
+    background-color:#ffffff;
+    padding:7.5px;
+    margin:25px;
+    width:310px;
+    font-family:cursive;
+}
+
+.origami:hover
+{
+    transform:scale(1,2);
+}
+
+.origami img:hover
+{
+    position: relative;
+}
+
